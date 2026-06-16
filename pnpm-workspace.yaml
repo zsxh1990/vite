@@ -45,7 +45,7 @@ allowBuilds:
   workerd: true
 
 minimumReleaseAge: 1440
-blockExoticSubdeps: true
+blockExoticSubdeps: false
 trustPolicy: no-downgrade
 trustPolicyExclude:
   - chokidar@4.0.3 # https://github.com/paulmillr/chokidar/issues/1440
